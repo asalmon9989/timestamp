@@ -27,5 +27,8 @@
   "homepage": "https://github.com/asalmon9989/timestamp#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node timestamp.js"
   }
 }
