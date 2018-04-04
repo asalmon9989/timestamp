@@ -1,7 +1,7 @@
 const express = require('express');
 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-
+const port = process.env.PORT || 8080;
 const app = express();
 const dateJson = function(date) {
 	return {'unix': date.getTime(),
@@ -37,4 +37,4 @@ app.get('/:date', function(req, res) {
 		res.send(dateJson(date));
 	}
 });
-app.listen(8080);
+app.listen(port);
