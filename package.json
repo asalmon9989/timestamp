@@ -1,0 +1,31 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Timestamp project for free code camp",
+  "main": "timestamp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asalmon9989/timestamp.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "express",
+    "free-code-camp",
+    "timestamp",
+    "unixtime",
+    "time"
+  ],
+  "author": "Andy Salmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asalmon9989/timestamp/issues"
+  },
+  "homepage": "https://github.com/asalmon9989/timestamp#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
